@@ -1,0 +1,93 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sign Up Form</title>
+        <link rel="stylesheet" href="https://codepen.io/gymratpacks/pen/VKzBEp#0">
+        <link href='https://fonts.googleapis.com/css?family=Nunito:400,300' rel='stylesheet' type='text/css'>
+        
+        <link rel="stylesheet" href="main.css">
+    </head>
+    <body>
+      <div class="row">
+    <div class="col-md-12">
+      <form action="index.html" method="post">
+        <h1>USER DETAILS</h1>
+        
+        <fieldset>
+          
+          <legend><span class="number"></span> Your Details : </legend>
+        
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="user_name" placeholder="First And Last Name">
+          <br>
+        
+          <label for="email">Email:</label>
+          <input type="email" id="mail" name="user_email" placeholder="example@domain.com">
+       <br>
+          <label for="Mobile Number">Mobile Number:</label>
+          <input type="tel" id="Mobile Number" name="user_mobile number" placeholder="9999999999">
+        
+          <br>
+          <legend><span class="number"></span> Your Address : </legend>
+          <label for="Address">Address:</label>
+          <textarea rows="4" placeholder="Your Address"></textarea>
+          <br>
+          <label for="Post code">Postcode:</label>
+          <input type="text" id="postcode" name="user_postcode" placeholder="postcode">
+        <br>
+          <label for="country">Country:</label>
+          <input type="text" id="country" name="user_country" placeholder="your country">
+         <br>
+          
+        </fieldset>
+        <fieldset>  
+        
+          <legend><span class="number"></span> Card details : </legend>
+
+          <label>Card type:</label>
+          <div class="radio">
+          
+             <br>        
+  <label>
+    <input type="radio" name="nature" value="nature1" checked>
+    <img  src="https://upload.wikimedia.org/wikipedia/commons/5/5e/Visa_Inc._logo.svg"  
+     width="40"  height="50" 
+    alt="VISA CARD" />VISA</label>  
+    
+    
+    <label>
+      <input type="radio" name="nature" value="nature2" checked>
+      <img  src="https://upload.wikimedia.org/wikipedia/commons/2/2a/Mastercard-logo.svg"  
+       width="40"  height="50" 
+      alt="MASTERCARD " />MASTERCARD</label>      
+      
+      <label>
+        <input type="radio" name="nature" value="nature3" checked>
+        <img  src="https://www.svgrepo.com/show/14823/amex.svg"  
+         width="40"  height="50" 
+        alt="AMERICAN EXPRESS" />AMEX</label>
+          </div>
+         
+ 
+         
+          <label for="name">Card number:</label>
+          <input type="text" id="card number" name="user_cardnumber" placeholder="1111 1111 1111">
+        <br>
+          <label for="cvv">Security Code:</label>
+          <input type="text" id="security code" name="user_security code" placeholder="CVV code">
+       <br>
+          <label for="Mobile Number">Name on card:</label>
+          <input type="text" id="name on card" name="user_mobile number" placeholder="Exact name as on the card">
+          
+          <br>
+         </fieldset>
+       
+        <button type="submit">BUY IT</button>
+        
+       </form>
+        </div>
+      </div>
+      
+    </body>
+</html>

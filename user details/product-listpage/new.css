@@ -1,0 +1,337 @@
+* {
+	padding: 0;
+	margin: 0;
+	position: relative;
+	box-sizing: border-box;
+  }
+  .video{
+
+
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: fixed;
+
+  }
+
+
+  .listing-section, .cart-section {
+	width: 100%;
+	float: left;
+	padding: 1%;
+	border-bottom: 0.01em solid #dddbdb;
+  }
+  
+  .product-1{
+	opacity: 0.9;
+	float: left;
+	width: 40%;
+	border-radius: 1%;
+	text-align: right;
+	margin: auto;
+	margin-top: 1.5cm;
+	margin-left: 1cm;
+	margin-bottom: 3cm;
+  }
+  .product-2{
+	opacity: 0.9;
+	float: right;
+	width: 40%;
+	border-radius: 1%;
+	text-align: right;
+	margin: auto;
+	margin-top: 1.5cm;
+	margin-right: 1cm;
+	margin-bottom: 3cm;
+  }
+  .product-3{
+	opacity: 0.9;
+	float: left;
+	width: 40%;
+	border-radius: 1%;
+	text-align: right;
+	margin: auto;
+	margin-top: 1.5cm;
+	margin-left: 1cm;
+	margin-bottom: 3cm;
+  }
+  .product-4{
+	opacity: 0.9;
+	float: right;
+	width: 40%;
+	border-radius: 1%;
+	text-align: right;
+	margin: auto;
+	margin-top: 1.5cm;
+	margin-right: 1cm;
+	margin-bottom: 3cm;
+  }
+
+  
+  .product:hover {
+	box-shadow: 1.5px 1.5px 2.5px 3px rgb(255, 248, 248);
+	-webkit-box-shadow: 1.5px 1.5px 2.5px 3px rgb(255, 255, 255);  
+	-moz-box-shadow:    1.5px 1.5px 2.5px 3px rgb(255, 255, 255);
+  }
+  
+  .image-box {
+	width: 100%;
+	overflow: hidden;
+	border-radius: 2% 2% 0 0;
+  }
+  
+  .images {
+	height: 15em;
+	background-size: cover; 
+	background-position: center; 
+	background-repeat: no-repeat;
+	border-radius: 2% 2% 0 0;
+	transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-ms-transition: all 1s ease;
+	-webkit-transition: all 1s ease;
+	-o-transition: all 1s ease;
+  }
+  
+  .images:hover {
+	transform: scale(1.2);
+	overflow: hidden;
+	border-radius: 2%;
+  }
+  
+  /* IMAGES */
+  #image-1 {background-image: url("https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-13-finish-select-202207-pink?wid=5120&hei=2880&fmt=p-jpg&qlt=80&.v=1693063160403");}
+  
+  #image-2 {background-image: url("https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcTdGfzs30Mg3BQiWrNFV-6ihWGVlzYJTq6JC0VkQR7Fa3NG7I0q1fdmMIXz4eSKmC8ZC4fAZvBSmvdvxTnVrwx9SzeVgLS_LJ_yR3cxUMGS&usqp=CAE")}
+  
+  #image-3 {background-image: url("https://imgeng.jagran.com/images/2023/mar/best%20laptops1679305053832.jpg")}
+  
+  #image-4 {background-image: url("https://www.cnet.com/a/img/resize/4202ef00e0461101ee6b4fc88ac2eb2fc0df6dfe/hub/2022/04/25/bcfa52df-fe34-4d2b-80d7-443ba660c100/img-9531.jpg?auto=webp&fit=crop&height=675&width=1200")}
+  
+  .text-box {
+	width: 100%;
+	float: left;
+	border: 0.01em solid #fffafa;
+	border-radius: 0 0 2% 2%;
+	padding: 1em;
+  }
+  
+  h2, h3 {
+	float: left;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	font-size: 1em;
+	text-transform: uppercase;
+	margin: 0.2em auto;
+  }
+  
+  .item, .price {
+	clear: left;
+	width: 100%;
+	text-align: center;
+	background-color: rgb(255, 248, 248);
+	color: rgb(0, 0, 0);
+  }
+  
+  .price {
+	background-color: #ffffff;
+	color: rgb(0, 0, 0);
+  }
+  
+  .description, label, button, input {
+	float: left;
+	clear: left;
+	width: 100%;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	font-size: 1em;
+	text-align: center;
+	margin: 0.2em auto;
+	background-color: rgb(255, 255, 255);
+	color: rgb(0, 0, 0);
+  }
+  
+  input:focus {
+	outline-color: #fdf;
+  }
+  
+  label {
+	width: 60%;
+  }
+  
+  .text-box input {
+	width: 15%;
+	clear: none;
+  }
+  
+  .text-box button {
+	margin-top: 1em;
+  }
+  
+  button {
+	padding: 2%;
+	background-color: #dfd;
+	color: #000;
+	border: none;
+	border-radius: 2%;
+  }
+  
+  button:hover {
+	bottom: 0.1em;
+  }
+  
+  button:focus {
+	outline: 0;
+  }
+  
+  button:active {
+	bottom: 0;
+	background-color: #fdf;
+  }
+  
+  .table-heading, .table-content {
+	width: 75%;
+	margin: 1% 12.25%;
+	float: left;
+	background-color: #dfd;
+  }
+  
+  .table-heading h2 {
+	padding: 1%;
+	margin: 0;
+	text-align: center;
+  }
+  
+  .cart-product {
+	width: 50%;
+	float: left;
+  }
+  
+  .cart-price {
+	width: 15%;
+	float: left;
+  }
+  
+  .cart-quantity {
+	width: 10%;
+	float: left;
+  }
+  
+  .cart-total {
+	width: 25%;
+	float: left;
+  }
+  
+  .cart-image-box {
+	width: 20%;
+	overflow: hidden;
+	border-radius: 2%;
+	float: left;
+	margin: 1%;
+  }
+  
+  .cart-images {
+	height: 7em;
+	background-size: cover; 
+	background-position: center center; 
+	background-repeat: no-repeat;
+  }
+  
+  .cart-item {
+	width: 20%;
+	float: left;
+	margin: 3.2em 1%;
+	text-align: center;
+  }
+  .cart-description {
+	width: 53%;
+	float: left;
+	margin: 3.2em 1%;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	font-size: 1em;
+	text-align: center;
+  }
+  
+  .cart-price h3, .cart-total h3 {
+	margin: 3.2em 5% 3.2em 20%;
+	width: 60%;
+  }
+  
+  .cart-quantity input {
+	margin: 3.2em 1%;
+	border: none;
+  }
+  
+  .remove {
+	width: 10%;
+	margin: 1px;
+	float: right;
+	clear: right;
+  }
+  
+  .coupon {
+	width: 20%;
+	background-color: #dfd;
+	margin: 1% 1% 1% 12.25%;
+	float: left;
+	height: 6em;
+  }
+  
+  .coupon input {
+	width: 60%;
+	border: none;
+	margin: 12.75% 5%;
+	padding: 1%;
+  }
+  
+  .coupon button {
+	width: 25%;
+	float: left;
+	clear: right;
+	margin: 12% 5% 12% 0;
+  }
+  
+  .keep-shopping {
+	width: 15%;
+	height: 6em;
+	float: left;
+	margin: 1% auto;
+	padding: 1%;
+	background-color: #dfd;
+  }
+  
+  .keep-shopping button {
+	text-transform: uppercase;
+	margin: 12% auto;
+	
+  }
+  
+  .checkout {
+	width: 37.25%;
+	margin: 1% 12.75% 1% 1%;
+	float: right;
+	background-color: #dfd;
+	height: 6em;
+  }
+  
+  .checkout button {
+	width: 30.25%;
+	clear: none;
+	margin: 5.4% 0 5.4% 5.5%;
+	text-transform: uppercase;
+  }
+  
+  .final-cart-total {
+	width: 15%;
+	float: right;
+	margin: 7%;
+	background-color: White;
+  }
+  
+  .final-cart-total h3 {
+	color: rgb(255, 255, 255);
+  }  
